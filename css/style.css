@@ -1,0 +1,263 @@
+/* 
+	Reset CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styles page */
+body{
+	background: #fff;
+	font-family: 'open_sansregular';
+	font-size: 12px;
+	color: #373737;
+}
+.sidebar{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	width: 200px;
+	float: left;
+}
+.container-site{
+	width: 800px;
+	position: static;
+	float: left;
+	margin-left: 20px;
+}
+.box-logo{
+	background: #cc0000;
+	height: 130px;
+}
+.box-logo img{
+	float: right;
+	margin-top: 29px;
+}
+.nav-sidebar li{
+	border-bottom: solid 1px #e3e3e3;
+	height: 36px;
+	line-height: 36px;
+	background: #f8f8f8;
+}
+.nav-sidebar li:hover{
+	border-bottom: solid 1px #aeaeae;
+	height: 36px;
+	line-height: 36px;
+	background: #f3f3f3;
+}
+.li-add{
+	height: 60px !important;
+	line-height: 60px !important;
+	border-left: solid 10px #bdbdbd;
+	padding-left: 10px;
+}
+.box-message{
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	border: solid 1px #e3e3e3;
+}
+.box-icon-message{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: #cc0000;
+}
+.box-message span{
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #373737;
+	font-size: 18px;
+}
+.section-search{
+	width: 100%;
+	height: 36px;	
+	margin-top: 8px;
+}
+.box-search{
+	width: 256px;
+	height: 36px;
+	float: right;
+}
+.input-search{
+	border: none;
+	background: #f0f0f0;
+	height: 30px;
+	width: 214px;
+	border-top-left-radius:2px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:2px;
+	text-align: right;
+	padding-right: 6px;
+}
+.search-button{
+	width: 31px;
+	height: 31px;
+	background: #cc0000;
+	float: right;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 0px;	
+	margin-right: 5px;
+}
+.delete-button{
+	width: 31px; 
+	height: 31px; 
+	float: right;
+	background: #cc0000;
+	border-radius: 2px;
+	margin-left: 5px;
+}
+.inbox-message{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	border: solid 1px #e3e3e3;	
+	padding: 8px;
+}
+.message-list{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 10px;
+}
+.box-checkbox{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 20px;
+}
+.content-message{
+	background: #fbfbfb;
+	float: left;
+	width: 96%;
+	height: 60px;
+	margin-left: 10px;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 60px;	
+}
+.box-photo {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+.box-label-message{
+	width: 400px; 
+	height:40px; 
+	float: left; 
+	margin-top: 12px; 
+	margin-left: 10px;
+}
+.lbl-name{
+	margin-top: 25px;
+	line-height: 20px;
+	color: #cc0000;
+}
+.lbl-msg{
+	color: #373737;
+}
+/* Font links */
+.nav-sidebar a{
+	color: #c8c7c7;
+	text-decoration: none;
+}
+.em-char{
+	color: #6c6c6c;
+}
+.em-date{
+	color: #ababab;
+}
+
+/* Icons */
+.icon-market, 
+.icon-product, 
+.icon-sale, 
+.icon-cart,
+.icon-add{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 7px 6px 0px 19px;
+}
+.icon-message{
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url('../img/icon-message.png') no-repeat;
+}
+.icon-search{
+	width: 20px;
+	height: 20px;
+	background: url('../img/icon-search.png') no-repeat;
+	margin: 5px 0px 0px 5px;
+	float: left;
+}
+.icon-delete{
+	width: 20px;
+	height: 20px;
+	background: url('../img/icon-delete.png') no-repeat;
+	margin: 5px 0px 0px 6px;
+	float: left;
+}
+.icon-market{
+	background: url('../img/icon-market.png') no-repeat;
+}
+.icon-product{
+	background: url('../img/icon-product.png') no-repeat;	
+}
+.icon-sale{
+	background: url('../img/icon-sale.png') no-repeat;
+}
+.icon-cart{
+	background: url('../img/icon-cart.png') no-repeat;
+}
+.icon-add{
+	background: url('../img/icon-add.png') no-repeat;
+}
